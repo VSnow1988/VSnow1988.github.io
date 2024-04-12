@@ -1,4 +1,30 @@
 /**
 * Plain CSS Stylesheet for index.html 
 * @author Vincent Snow, 2024 vincentsnow@gmx.com
-/*
+*/
+
+/* Manually clear all styles, helps in browser compatibility. */
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: 0px;
+	vertical-align: baseline;
+}
+
+/* Variables for use in the style settings. These values can be changed to alter overall appearance quickly. */
+:root {
+	--bg_color: #000;
+	--main_text: #999;
+	--link_color: #fff;
+	--visited_link: #bd90d6;
+	--border_color: #333;
+	--main_font: Helvetica, sans-serif;
+}
+
+/* Settings for the HTML body, applies to entire page design. */
+body {
+    background-color: var(--bg_color);
+    color: var(--main_text);
+    font-family: var(--main_font);
+}
