@@ -62,3 +62,30 @@ body {
 	background-color: lightpink; /*TEST*/
 	text-align: center;
 }
+
+/* Settings for the introduction page (index.html) */
+
+h1, h2 {
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+#assessment_box {
+	background-color: honeydew; /* TEST */
+	height: 70%;
+	width: 80%;
+	padding: 1%;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+
+#demo_link_box {
+	background-color: rgb(72, 150, 72); /* TEST */
+	height: 10%;
+	width: 25%;
+	padding: 1%;
+	position: absolute;
+	bottom: 2%;
+	right: 10%;
+}
