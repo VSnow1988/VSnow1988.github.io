@@ -19,10 +19,10 @@
 	--link_color: #fff;
 	--visited_link: #bd90d6;
 	--border_color: #333;
-	--main_font: Helvetica, sans-serif;
+	--main_font: Helvetica, Arial, sans-serif;
 }
 
-/* Settings for the HTML body, applies to entire page design. */
+/* Settings for the HTML body and high-level elements, applies to all pages' entire design. */
 
 body, html {
 	height: 100%;
@@ -66,26 +66,46 @@ body {
 /* Settings for the introduction page (index.html) */
 
 h1, h2 {
-	margin-top: 1%;
-	margin-left: 1%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+h1 {
+	color: #51327c;
+	font-size: xx-large;
+}
+
+h2 {
+	font-size: larger;
+}
+
+h3 {
+	font-size: large;
+	color: #000;
+}
+
+.intro_box {
+	border-radius: 5px;
+	opacity: 75%;
 }
 
 #assessment_box {
-	background-color: honeydew; /* TEST */
+	background-color: rgb(29, 35, 85); /* TEST */
 	height: 70%;
 	width: 80%;
 	padding: 1%;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 10%;
 }
 
 #demo_link_box {
-	background-color: rgb(72, 150, 72); /* TEST */
+	background-color: rgb(150, 141, 155); /* TEST */
 	height: 10%;
 	width: 25%;
 	padding: 1%;
 	position: absolute;
-	bottom: 2%;
+	top: 83%;
 	right: 10%;
+	text-align: center;
 }
