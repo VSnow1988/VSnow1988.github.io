@@ -23,8 +23,42 @@
 }
 
 /* Settings for the HTML body, applies to entire page design. */
+
+body, html {
+	height: 100%;
+  }
+
 body {
     background-color: var(--bg_color);
     color: var(--main_text);
     font-family: var(--main_font);
+}
+
+/* Settings for the Project page (project1.html) */
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	display: inline-flex;
+	background-color: aquamarine; /* TEST */
+	
+}
+
+.column {
+	padding: 1%;
+}
+
+#narrative_column {
+	height: 100%;
+	width: 30%;
+	display: inline;
+	background-color: darkkhaki; /*TEST*/
+}
+
+#project_column {
+	height: 100%;
+	width: 70%;
+	display: inline;
+	background-color: lightpink; /*TEST*/
+	text-align: center;
 }
