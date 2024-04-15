@@ -22,6 +22,9 @@
 	--main_font: Tahoma, Arial, sans-serif;
 	--box_purple: #60557C;
 	--box_blue: #55597C;
+	--title_color: #73557c;
+	--subtitle_color: #827d86;
+	--header_color: #000;
 }
 
 /* Settings for the HTML body and high-level elements, applies to all pages' entire design. */
@@ -35,6 +38,7 @@ body {
 	background-image: linear-gradient(#000, #1e1922);
     color: var(--main_text);
     font-family: var(--main_font);
+	overflow: hidden;
 }
 
 a:link {
@@ -95,7 +99,7 @@ h1, h2 {
 }
 
 h1 {
-	color: #4a3666;
+	color: var(--title_color);
 	font-size: 3em;
 	letter-spacing: 1px;
 	font-family: 'Trirong', Garamond, serif;
@@ -103,14 +107,15 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
-	color:#827d86;
+	color:var(--subtitle_color);
 	font-style: italic;
 	margin-top: -1%;
 }
 
 h3 {
 	font-size: 1.3em;
-	color: #000;
+	color: var(--header_color);
+	text-align: center;
 }
 
 #assessment_box {
