@@ -15,9 +15,10 @@
 /* Variables for use in the style settings. These values can be changed to alter overall appearance quickly. */
 :root {
 	--bg_color: #000;
-	--main_text: #999;
-	--link_color: #fff;
-	--visited_link: #bd90d6;
+	--main_text: #d8d3de;
+	--project_text: #000;
+	--link_color: #a48bd5;
+	--visited_link: #e4d1ef;
 	--border_color: #333;
 	--main_font: Helvetica, Arial, sans-serif;
 }
@@ -30,8 +31,17 @@ body, html {
 
 body {
     background-color: var(--bg_color);
+	background-image: linear-gradient(#000, #1e1922);
     color: var(--main_text);
     font-family: var(--main_font);
+}
+
+a:link {
+	color: var(--link_color);
+}
+
+a:visited {
+	color: var(--visited_link);
 }
 
 /* Settings for the Project page (project1.html) */
@@ -46,20 +56,27 @@ body {
 
 .column {
 	padding: 1%;
+	color: var(--project_text);
+	align-items: center;
+}
+
+h4 {
+	color: #1e1922;
+	text-align: center;
 }
 
 #narrative_column {
 	height: 100%;
 	width: 30%;
 	display: inline;
-	background-color: darkkhaki; /*TEST*/
+	background-color: rgb(89, 93, 132);
 }
 
 #project_column {
 	height: 100%;
 	width: 70%;
 	display: inline;
-	background-color: lightpink; /*TEST*/
+	background-color: rgb(128, 114, 135);
 	text-align: center;
 }
 
@@ -71,36 +88,42 @@ h1, h2 {
 }
 
 h1 {
-	color: #51327c;
-	font-size: xx-large;
+	color: #4a3666;
+	font-size: 3em;
+	font-family: 'Trirong', Garamond, serif;
+	letter-spacing: 1px;
 }
 
 h2 {
-	font-size: larger;
+	font-size: 1.5em;
+	color:#827d86;
+	font-style: italic;
 }
 
 h3 {
-	font-size: large;
+	font-size: 1.3em;
 	color: #000;
 }
 
 .intro_box {
 	border-radius: 5px;
 	opacity: 75%;
+	box-shadow: 10px 10px 5px rgba(159, 192, 203, 0.514);
 }
 
 #assessment_box {
-	background-color: rgb(29, 35, 85); /* TEST */
+	background-color: rgb(89, 93, 132);
 	height: 70%;
 	width: 80%;
 	padding: 1%;
 	position: absolute;
 	top: 15%;
 	left: 10%;
+	box-shadow: 10px 10px 5px rgba(159, 192, 203, 0.514);
 }
 
 #demo_link_box {
-	background-color: rgb(150, 141, 155); /* TEST */
+	background-color: rgb(128, 114, 135);
 	height: 10%;
 	width: 25%;
 	padding: 1%;
