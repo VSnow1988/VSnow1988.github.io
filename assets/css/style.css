@@ -12,7 +12,8 @@
 	vertical-align: baseline;
 }
 
-/* Variables for use in the style settings. These values can be changed to alter overall appearance quickly. */
+/* Variables for use in the style settings. These values can be changed to alter overall appearance quickly. 
+Remember to use color harmonies and check the constrast accessibility rating! */
 :root {
 	--bg_color: #000;
 	--main_text: #d8d3de;
@@ -27,7 +28,7 @@
 	--header_color: #000;
 }
 
-/* Settings for the HTML body and high-level elements, applies to all pages' entire design. */
+/* Settings for the HTML body and high-level elements, applies to the site's entire design. */
 
 body, html {
 	height: 100%;
