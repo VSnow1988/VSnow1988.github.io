@@ -16,11 +16,12 @@
 :root {
 	--bg_color: #000;
 	--main_text: #d8d3de;
-	--project_text: #000;
-	--link_color: #a48bd5;
+	--link_color: #BAB3CB;
 	--visited_link: #e4d1ef;
 	--border_color: #333;
-	--main_font: Helvetica, Arial, sans-serif;
+	--main_font: Tahoma, Arial, sans-serif;
+	--box_purple: #60557C;
+	--box_blue: #55597C;
 }
 
 /* Settings for the HTML body and high-level elements, applies to all pages' entire design. */
@@ -44,40 +45,46 @@ a:visited {
 	color: var(--visited_link);
 }
 
+.box {
+	border-radius: 5px;
+	opacity: 75%;
+	box-shadow: 10px 10px 5px rgba(159, 192, 203, 0.514);
+}
+
 /* Settings for the Project page (project1.html) */
 
 .wrapper {
 	height: 100%;
 	width: 100%;
+	overflow: hidden;
 	display: inline-flex;
-	background-color: aquamarine; /* TEST */
-	
 }
 
 .column {
 	padding: 1%;
-	color: var(--project_text);
-	align-items: center;
+	height: 90%;
+	margin-top: 1%;
 }
 
 h4 {
-	color: #1e1922;
+	color: #B3B6CB;
 	text-align: center;
+	font-weight: bold;
 }
 
 #narrative_column {
-	height: 100%;
-	width: 30%;
+	width: 25%;
 	display: inline;
-	background-color: rgb(89, 93, 132);
+	background-color: var(--box_blue);
+	margin-left: 1%;
 }
 
 #project_column {
-	height: 100%;
-	width: 70%;
+	width: 65%;
 	display: inline;
-	background-color: rgb(128, 114, 135);
+	background-color: var(--box_purple);
 	text-align: center;
+	margin-left: 3%;
 }
 
 /* Settings for the introduction page (index.html) */
@@ -90,14 +97,15 @@ h1, h2 {
 h1 {
 	color: #4a3666;
 	font-size: 3em;
-	font-family: 'Trirong', Garamond, serif;
 	letter-spacing: 1px;
+	font-family: 'Trirong', Garamond, serif;
 }
 
 h2 {
 	font-size: 1.5em;
 	color:#827d86;
 	font-style: italic;
+	margin-top: -1%;
 }
 
 h3 {
@@ -105,14 +113,8 @@ h3 {
 	color: #000;
 }
 
-.intro_box {
-	border-radius: 5px;
-	opacity: 75%;
-	box-shadow: 10px 10px 5px rgba(159, 192, 203, 0.514);
-}
-
 #assessment_box {
-	background-color: rgb(89, 93, 132);
+	background-color: var(--box_blue);
 	height: 70%;
 	width: 80%;
 	padding: 1%;
@@ -123,7 +125,7 @@ h3 {
 }
 
 #demo_link_box {
-	background-color: rgb(128, 114, 135);
+	background-color: var(--box_purple);
 	height: 10%;
 	width: 25%;
 	padding: 1%;
