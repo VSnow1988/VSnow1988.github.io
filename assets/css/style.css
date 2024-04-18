@@ -55,6 +55,9 @@ a:visited {
 	opacity: 75%;
 	box-shadow: 10px 10px 5px rgba(159, 192, 203, 0.514);
 }
+p {
+	text-align: left;
+}
 
 /* Settings for the Project page (project1.html) */
 
