@@ -55,9 +55,11 @@ a:visited {
 	opacity: 75%;
 	box-shadow: 10px 10px 5px rgba(159, 192, 203, 0.514);
 }
+
 p {
 	text-align: left;
 }
+
 
 /* Settings for the Project page (project1.html) */
 
@@ -72,6 +74,19 @@ p {
 	padding: 1%;
 	height: 90%;
 	margin-top: 1%;
+	overflow-y: scroll;
+}
+
+.designdoc {
+	width: 30%;
+	height: 20%;
+	display: inline-block;
+}
+
+.wireframe {
+	width: 20%;
+	height: 40%;
+	display: inline-block;
 }
 
 h4 {
@@ -85,7 +100,6 @@ h4 {
 	display: inline;
 	background-color: var(--box_blue);
 	margin-left: 1%;
-	overflow-y: scroll;
 }
 
 #project_column {
