@@ -77,6 +77,13 @@ p {
 	overflow-y: scroll;
 }
 
+h4 {
+	color: #B3B6CB;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
 .designdoc {
 	width: 30%;
 	height: 20%;
@@ -89,10 +96,10 @@ p {
 	display: inline-block;
 }
 
-h4 {
-	color: #B3B6CB;
-	text-align: center;
-	font-weight: bold;
+#dbdesign {
+	width: 50%;
+	height: 60%;
+	display: inline-block;
 }
 
 #narrative_column {
