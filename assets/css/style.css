@@ -84,6 +84,12 @@ h4 {
 	font-size: 1.2em;
 }
 
+.screenshot {
+	width: 20%;
+	height: 50%;
+	display: inline-block;
+}
+
 .designdoc {
 	width: 30%;
 	height: 20%;
