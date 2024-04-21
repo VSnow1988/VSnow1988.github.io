@@ -159,15 +159,17 @@ h3 {
 	top: 15%;
 	left: 10%;
 	box-shadow: 10px 10px 5px rgba(159, 192, 203, 0.514);
+	overflow-y: scroll;
+	overflow-x: none;
 }
 
 #demo_link_box {
 	background-color: var(--box_purple);
-	height: 10%;
-	width: 25%;
+	height: 3%;
+	width: 50%;
 	padding: 1%;
 	position: absolute;
-	top: 83%;
-	right: 10%;
+	top: 91%;
+	right: 5%;
 	text-align: center;
 }
